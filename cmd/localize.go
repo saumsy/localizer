@@ -4,15 +4,14 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/27Saumya/localizer/internal"
+	"github.com/saumsy/localizer/internal"
 	"github.com/spf13/cobra"
 )
 
 var localizeCmd = &cobra.Command{
 	Use:   "localize [base .lproj directory] [languages]",
 	Short: "Adds localization for the languages provided",
-	Long: 
-`Adds localization for the languages (separated by a comma if there are multiple) provided with reference to a base .lproj directory
+	Long: `Adds localization for the languages (separated by a comma if there are multiple) provided with reference to a base .lproj directory
 The base .lproj directory can be any of your preferred language.
 Both the .lproj directory and the languages provided should be a valid iso code
 

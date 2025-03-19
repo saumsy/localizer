@@ -1,4 +1,4 @@
-module github.com/27Saumya/localizer
+module github.com/saumsy/localizer
 
 go 1.22.1
 

@@ -1,6 +1,6 @@
 package main
 
-import "github.com/27Saumya/localizer/cmd"
+import "github.com/saumsy/localizer/cmd"
 
 func main() {
 	cmd.Execute()
